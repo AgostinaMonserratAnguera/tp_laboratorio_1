@@ -25,14 +25,14 @@ int main(void) {
 
 	do
 	  {
-	     respuesta=utn_getNumero(&opcion, "\nSeleccione una opción\n1)Ingrese un operando A\n2)Ingrese un operando B \n3)Operaciones matemáticas\n"
-	    		 	 	 	 	 "4)Resultados\n5)Salir\n","ERROR. No es una opción válida",1,5,1);
+	     respuesta=utn_getNumero(&opcion, "\nSeleccione una opcion\n1)Ingrese un operando A\n2)Ingrese un operando B \n3)Operaciones matematicas\n"
+	    		 	 	 	 	 "4)Resultados\n5)Salir\n","ERROR. No es una opcion valida",1,5,1);
 	        if(respuesta==1)
 	        {
 	          switch (opcion)
 	            {
 	                case 1:
-	                		printf("Esta dentro de la opción: Ingrese un operando \n");
+	                		printf("Esta dentro de la opcion: Ingrese un operando \n");
 	                		scanf("%f", &a);
 	                		printf("Operando A= %.2f\n", a);
 	                		flagA = 1;
@@ -40,7 +40,7 @@ int main(void) {
 	                    break;
 	                case 2:
 
-	                		printf("Esta dentro de la opción: Ingrese un operando B\n");
+	                		printf("Esta dentro de la opcion: Ingrese un operando B\n");
 	                		scanf("%f", &b);
 	                		printf("Operando B= %.2f\n", b);
 	                		flagB = 1;
@@ -50,11 +50,11 @@ int main(void) {
 
 	                		if(flagA==1 && flagB==1)
 	                		{
-	                			printf("Esta dentro de la opción: Operaciones matemáticas\n");
+	                			printf("Esta dentro de la opcion: Operaciones matematicas\n");
 	                			printf("A)Calcular la suma (%.2f+%.2f)\n", a, b);
 	                			printf("B)Calcular la resta (%.2f-%.2f)\n", a, b);
-	                			printf("C)Calcular la división (%.2f/%.2f)\n", a, b);
-	                			printf("D)Calcular la multiplicación (%.2f*%.2f)\n", a, b);
+	                			printf("C)Calcular la division (%.2f/%.2f)\n", a, b);
+	                			printf("D)Calcular la multiplicacion (%.2f*%.2f)\n", a, b);
 	                			printf("E)Calcular el factorial de %.2f y %.2f)\n", a, b);
 	                			sumar = Suma(a,b);
 	                			restar = Resta(a,b);

@@ -44,7 +44,7 @@ void MostrarFactorial(float x, float y, int factorialA, int factorialB)
 {
 	x=(int)x;
 	y=(int)y;
-	printf("En caso de ingresar numeros con decimales, se realizará el factorial de la parte entera, el rango limite para el sistema esta comprendido entre -7 y 7\n");
+	printf("En caso de ingresar numeros con decimales, se realizara el factorial de la parte entera, el rango limite para el sistema esta comprendido entre -7 y 7\n");
 	if(x>=-7 && x<=7)
 	{
 		printf("e)El factorial de A es: %d\n", factorialA);
