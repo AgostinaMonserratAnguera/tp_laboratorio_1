@@ -77,7 +77,7 @@ int main(void) {
 	                		printf("Esta dentro de la opción: Resultados\n");
 	                		printf("a)El resultado de A+B es: %.2f\n", sumar);
 	                		printf("b)El resultado de A-B es: %.2f\n", restar);
-	                		MostrarDivision(dividir);
+	                		MostrarDivision(b, dividir);
 	                		printf("d)El resultado de A*B es: %.2f\n", multiplicar);
 	                		MostrarFactorial(a, b, factorialA, factorialB);
 	                	}

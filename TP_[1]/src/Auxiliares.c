@@ -29,9 +29,9 @@ int utn_getNumero (int*pResultado, char*mensaje, char*mensajeError, int minimo, 
 }
 
 
-void MostrarDivision(float dividir)
+void MostrarDivision(float y, float dividir)
 {
-	if(dividir!=0)
+	if(y!=0)
 	{
 		printf("c)El resultado de A/B es: %.2f\n", dividir);
 	}
